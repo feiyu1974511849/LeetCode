@@ -1,0 +1,50 @@
+# ================= C / C++ 编译产物与中间文件 =================
+# 递归排除所有子目录下的可执行文件和编译产物
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.ko
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# 调试信息与崩溃转储文件
+*.ilk
+*.map
+*.exp
+*.pdb
+*.dSYM/
+*.su
+*.idb
+
+# ================= Python 缓存与中间文件 =================
+# 字节码缓存目录与文件（递归匹配所有子文件夹）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境目录
+.venv/
+venv/
+env/
+ENV/
+
+# 测试、类型检查与 Jupyter Notebook 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# ================= 编辑器与操作系统临时文件 =================
+# 如果不想上传局部的 VS Code 配置，取消下面这行的注释
+# .vscode/
+.idea/
+.DS_Store
+Thumbs.db
