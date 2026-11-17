@@ -15,15 +15,12 @@ class Solution:
         
 
 if __name__ == '__main__':
-    # 准备示例 1 的测试数据
     nums1 = [1, 2, 3, 0, 0, 0]
     m = 3
     nums2 = [2, 5, 6]
     n = 3
     
-    # 实例化 Solution 并调用方法
     sol = Solution()
     sol.merge(nums1, m, nums2, n)
     
-    # 打印结果验证
     print(f"合并后的数组结果: {nums1}")
